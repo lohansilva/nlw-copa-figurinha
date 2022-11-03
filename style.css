@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: "Roboto";
+}
+
+body {
+    background: linear-gradient(
+        150deg, 
+        #0F2B05, 
+        #000000);
+    height: 100vh; /* usar 100vh quando usar o linear gradient no background-image, para identificar o que ele vai preencher*/
+    text-align: center;
+}
+
+header {
+    padding: 75px 0;
+    
+}
+
+.card {
+    display: inline-block;
+    width: 354px;
+    height: 508px;
+
+    background-image: url(./assets/bg-explorer.svg);
+}
+
+.card > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #F7DD43;
+}
